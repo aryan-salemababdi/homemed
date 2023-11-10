@@ -43,7 +43,7 @@ const Banner = () => {
         display: "flex",
         flexDirection: "column" as const,
         justifyContent: "center" as const,
-        alignItems: "end" as const,
+        alignItems: "start" as const,
         color: "#fff",
     };
 
