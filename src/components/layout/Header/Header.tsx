@@ -88,7 +88,7 @@ const Header: NextPage<HeaderProps> = ({ children }) => {
                 height={90}
                 style={{ borderRadius: "5%",backgroundColor:"none" }}
               /> */}
-              <Typography fontWeight="bold" variant="h4">
+              <Typography fontWeight="bold" variant="h4" color={scroll < 30 ? "white" : "black"}>
                   <span style={{color:"#3AA76D"}}>پزشک</span> در منزل
               </Typography>
             </Grid>

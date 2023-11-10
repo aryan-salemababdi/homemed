@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './page.module.css';
+import LandingPage from '@/components/template/LandingPage/LandingPage';
 
 
 export default function Home() {
   return (
     <main className={styles.main}>
-        home medical
+        <LandingPage />
     </main>
   )
 }
