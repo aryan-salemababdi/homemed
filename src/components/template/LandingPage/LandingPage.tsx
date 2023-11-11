@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '@/components/module/Banner/Banner';
 import { Box } from '@mui/material';
 import Content from '@/components/module/Content/Content';
+import AboutUs from '@/components/module/AboutUs/AboutUs';
 
 
 const LandingPage = () => {
@@ -11,6 +12,7 @@ const LandingPage = () => {
         <Banner />
       </Box>
       <Content />
+      <AboutUs />
     </div>
   )
 }
