@@ -102,6 +102,22 @@ const Banner = () => {
                             درباره ما
                         </Typography>
                     </Button>
+                    <Button
+                        variant="contained"
+                        sx={{ margin: "40px 10px", background: "#3AA76D" }}
+                        onClick={() => {
+                            scroller(5500);
+                        }}
+                    >
+                        <Typography
+                            fontWeight="bold"
+                            variant="h6"
+                            textAlign="center"
+                            color="white"
+                        >
+                            تماس با ما
+                        </Typography>
+                    </Button>
                 </Box>
             </div>
         </>
