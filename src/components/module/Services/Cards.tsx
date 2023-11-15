@@ -25,6 +25,7 @@ const style = {
     border: '2px solid #fff',
     boxShadow: 24,
     p: 4,
+    margin:"20px"
 };
 
 
@@ -37,7 +38,7 @@ const Cards: NextPage<ICardsProps> = ({ item }) => {
         <>
             <Card sx={{ margin: "10px" }}>
                 <Button onClick={handleOpen} sx={{ width: "100%" }}>
-                    <Box textAlign="center" alignItems="center" sx={{ height: "100px" }}>
+                    <Box textAlign="center" alignItems="center" sx={{ height: "150px" }}>
                         <Image
                             src={`/icons/${item.icon}`}
                             alt="acupuncture"
