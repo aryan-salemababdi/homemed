@@ -3,6 +3,7 @@ import Banner from '@/components/module/Banner/Banner';
 import { Box } from '@mui/material';
 import Content from '@/components/module/Content/Content';
 import AboutUs from '@/components/module/AboutUs/AboutUs';
+import Services from '@/components/module/Services/Services';
 
 
 const LandingPage = () => {
@@ -13,6 +14,7 @@ const LandingPage = () => {
       </Box>
       <Content />
       <AboutUs />
+      <Services />
     </div>
   )
 }
