@@ -32,6 +32,7 @@ const Information = () => {
                 color="#000"
                 fontWeight="bold"
                 variant="h4"
+                m={2}
             >
                 <span style={{ color: "#3AA76D", fontSize: "70px" }}>02</span> برای بهبود سلامتی خود با ما در ارتباط باشید
             </Typography>

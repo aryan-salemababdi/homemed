@@ -51,7 +51,7 @@ const AboutUs = () => {
                 textAlign="right"
                 color="white"
               >
-                ارتباط با ما
+                تماس با ما
               </Typography>
             </Button>
           </Grid>
