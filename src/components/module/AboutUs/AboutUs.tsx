@@ -3,10 +3,18 @@ import { Container, Grid, Typography, Button } from "@mui/material";
 import Image from "next/image";
 
 const AboutUs = () => {
+
+  const scroller = (value: number) => {
+    window.scrollTo({
+      top: value,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <Container>
-        <Grid container justifyContent="center" spacing={{md:2,sm:1,xs:1}}>
+        <Grid container justifyContent="center" spacing={{ md: 2, sm: 1, xs: 1 }}>
           <Grid
             item
             xs={12}
@@ -15,14 +23,14 @@ const AboutUs = () => {
             sx={{
               flexDirection: "column",
               textAlign: { md: "right", sm: "right", xs: "right" },
-              direction:"rtl"
+              direction: "rtl"
             }}
           >
             <Typography color="#3AA76D" fontWeight="bold" variant="h6">
               درباره ما
             </Typography>
             <Typography fontWeight="bold" variant="h3">
-            <span style={{color:"#3AA76D", fontSize:"70px"}}>01</span> وضعیت سلامتی خود را به ما بسپارید
+              <span style={{ color: "#3AA76D", fontSize: "70px" }}>01</span> وضعیت سلامتی خود را به ما بسپارید
             </Typography>
             <Typography
               fontWeight="bold"
@@ -30,21 +38,12 @@ const AboutUs = () => {
               sx={{ margin: "10px 0px" }}
               color="#686868"
             >
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
-              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
-              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-              کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
-              جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای
-              طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان
-              فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری
-              موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد
-              نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل
-              دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              طب فردا شامل گروهی از پزشکان متخصص در حوزه مغزواعصاب،روانپزشکی،طب فیزیکی،طب سنتی و همکاران پرستار،فیزیوتراپی،کاردرمانی و گفتاردرمانی است که درزمینه تشخیص و درمان بیماری های مغزواعصاب درمنزل فعالیت می کنند
             </Typography>
             <Button
               variant="contained"
-              sx={{ margin: "10px 0px", background:"#3AA76D" }}
+              sx={{ margin: "10px 0px", background: "#3AA76D" }}
+              onClick={() => { scroller(10000) }}
             >
               <Typography
                 fontWeight="bold"

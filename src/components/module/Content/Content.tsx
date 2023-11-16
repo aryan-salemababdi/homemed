@@ -3,7 +3,7 @@ import React from 'react'
 
 const Content = () => {
     return (
-        <div style={{ margin: "20px 0px" }}>
+        <div style={{ margin: "20px 0px", background:"#E9EDF0" }}>
             <Container>
                 <Grid display="flex" flexWrap="wrap" justifyContent="center" sx={{ marginTop: "-50px" }}>
                     <Grid item>
