@@ -37,7 +37,7 @@ const Cards: NextPage<ICardsProps> = ({ item }) => {
         <>
             <Card sx={{ margin: "10px" }}>
                 <Button onClick={handleOpen} sx={{ width: "100%" }}>
-                    <Box textAlign="center" alignItems="center" sx={{ height: "150px" }}>
+                    <Box textAlign="center" alignItems="center">
                         <Image
                             src={`/icons/${item.icon}`}
                             alt="acupuncture"
