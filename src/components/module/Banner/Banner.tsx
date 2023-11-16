@@ -28,7 +28,7 @@ const Banner = () => {
     };
 
     const mystyle = {
-        backgroundImage: `url(/images/image${arrayImage[backgroundImageIndex]}.jpg)`,
+        backgroundImage: `url(/images/image${arrayImage[backgroundImageIndex]}.webp)`,
         margin: "0px",
         height: "80vh",
         width: "100vw",

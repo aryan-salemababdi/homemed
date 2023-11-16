@@ -12,8 +12,8 @@ const Content = () => {
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image="/images/johny-georgiadis-3ewkNkfJj2k-unsplash.jpg"
-                                    alt="green iguana"
+                                    image="/images/johny-georgiadis-3ewkNkfJj2k-unsplash.webp"
+                                    alt="personalized"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
@@ -32,8 +32,8 @@ const Content = () => {
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image="/images/sander-sammy-38Un6Oi5beE-unsplash.jpg"
-                                    alt="green iguana"
+                                    image="/images/sander-sammy-38Un6Oi5beE-unsplash.webp"
+                                    alt="health"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
@@ -52,8 +52,8 @@ const Content = () => {
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image="/images/patty-brito-Y-3Dt0us7e0-unsplash.jpg"
-                                    alt="green iguana"
+                                    image="/images/patty-brito-Y-3Dt0us7e0-unsplash.webp"
+                                    alt="health2"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">

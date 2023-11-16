@@ -6,7 +6,7 @@ import "./Information.css";
 
 const Information = () => {
     const mystyle = {
-        backgroundImage: `url(images/information.jpg)`,
+        backgroundImage: `url(images/information.webp)`,
         margin: "55px 0px",
         height: "50vh",
         width: "100vw",
