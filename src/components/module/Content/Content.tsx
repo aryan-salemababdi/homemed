@@ -3,7 +3,7 @@ import React from 'react'
 
 const Content = () => {
     return (
-        <div style={{ margin: "20px 0px", background:"#E9EDF0" }}>
+        <div style={{ margin: "20px 0px", background: "#E9EDF0" }}>
             <Container>
                 <Grid display="flex" flexWrap="wrap" justifyContent="center" sx={{ marginTop: "-50px" }}>
                     <Grid item>
@@ -12,15 +12,15 @@ const Content = () => {
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image="/images/patty-brito-Y-3Dt0us7e0-unsplash.jpg"
+                                    image="/images/johny-georgiadis-3ewkNkfJj2k-unsplash.jpg"
                                     alt="green iguana"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                        خدمات افزایش طول عمر
+                                        خدمات پزشک شخصی سازی شده
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        بخشvip حال خیلی خوب مختص کسانی است که به دنبال یک زندگی سالم و افزایش طول عمر مفیدشان می باشند سلامت شما با هیچ ثروتی قابل مقایسه نیست
+                                        طرح پزشک شخصی سازی شده بر اساس مزاج خود شخص می باشد، ما در زمینه حفظ و ارتقا سلامت شخص تلاش می کنیم و بسته به نیاز و شرایط شخص دارو های گیاهی که شامل کمون، روغن و ... را فراهم می کنیم
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -40,7 +40,7 @@ const Content = () => {
                                         حال خوب شما آرزوی ماست
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        حال خیلی خوب به کمک تیم مجرب خود در تمامی ساعات شبانه روز در تهران آماده ارائه خدمات درمانی و مراقبتی به شما و عزیزانتان می باشد
+                                        طب فردا به کمک تیم مجرب خود در تمامی ساعات شبانه روز در تهران آماده ارائه خدمات درمانی و مراقبتی به شما و عزیزانتان می باشد
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -52,7 +52,7 @@ const Content = () => {
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image="/images/johny-georgiadis-3ewkNkfJj2k-unsplash.jpg"
+                                    image="/images/patty-brito-Y-3Dt0us7e0-unsplash.jpg"
                                     alt="green iguana"
                                 />
                                 <CardContent>
