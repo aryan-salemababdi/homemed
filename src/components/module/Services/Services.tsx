@@ -56,45 +56,47 @@ const Services = () => {
 
 
     return (
-        <Container>
-            <Box m="100px 0px">
-                <Typography
-                    textAlign="center"
-                    color="#3AA76D"
-                    fontWeight="bold"
-                    variant="h6"
-                >
-                    خدمات
-                </Typography>
-                <Typography
-                    sx={{ margin: "20px 0px" }}
-                    textAlign="center"
-                    color="black"
-                    fontWeight="bold"
-                    variant="h3"
-                >
-                    خدمات <span style={{ color: "#3AA76D" }}>طب</span> فردا
-                </Typography>
-                <Grid
-                    container
-                    display="grid"
-                    gridAutoColumns="auto"
-                    gridTemplateColumns={{
-                        md: "repeat(3,1fr)",
-                        xs: "repeat(1,1fr)",
-                    }}
-                    p={2}
-                >
-                    {
-                        serviceData.map((item) => (
-                            <Cards
-                                item={item}
-                                key={item.id}
-                            />
-                        ))}
-                </Grid>
-            </Box>
-        </Container>
+        <div style={{ background:"#E9EDF0"}}>
+            <Container>
+                <Box m="100px 0px">
+                    <Typography
+                        textAlign="center"
+                        color="#3AA76D"
+                        fontWeight="bold"
+                        variant="h6"
+                    >
+                        خدمات
+                    </Typography>
+                    <Typography
+                        sx={{ margin: "20px 0px" }}
+                        textAlign="center"
+                        color="black"
+                        fontWeight="bold"
+                        variant="h3"
+                    >
+                        خدمات <span style={{ color: "#3AA76D" }}>طب</span> فردا
+                    </Typography>
+                    <Grid
+                        container
+                        display="grid"
+                        gridAutoColumns="auto"
+                        gridTemplateColumns={{
+                            md: "repeat(3,1fr)",
+                            xs: "repeat(1,1fr)",
+                        }}
+                        p={2}
+                    >
+                        {
+                            serviceData.map((item) => (
+                                <Cards
+                                    item={item}
+                                    key={item.id}
+                                />
+                            ))}
+                    </Grid>
+                </Box>
+            </Container>
+        </div>
     )
 }
 

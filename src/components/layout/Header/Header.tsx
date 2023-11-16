@@ -81,15 +81,8 @@ const Header: NextPage<HeaderProps> = ({ children }) => {
         >
           <Grid container justifyContent="center" alignItems="center">
             <Grid item p={1}>
-              {/* <Image
-                src="/images/logo/12.png"
-                alt="logo"
-                width={90}
-                height={90}
-                style={{ borderRadius: "5%",backgroundColor:"none" }}
-              /> */}
               <Typography fontWeight="bold" variant="h4" color={scroll < 30 ? "white" : "black"}>
-                  <span style={{color:"#3AA76D"}}>طب</span> سوزنی
+                  <span style={{color:"#3AA76D"}}>طب</span> فردا
               </Typography>
             </Grid>
           </Grid>
