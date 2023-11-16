@@ -1,13 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Typography, Button, Box } from "@mui/material";
-import { useRouter as useNextRouter } from "next/navigation";
 import Typewriter from "typewriter-effect";
 
-type Router = ReturnType<typeof useNextRouter>;
-
 const Banner = () => {
-    const router: Router = useNextRouter();
 
     const [backgroundImageIndex, setBackgroundImageIndex] = useState<number>(0);
 
@@ -52,16 +48,26 @@ const Banner = () => {
             <div style={mystyle}>
                 <Typography
                     fontWeight="bold"
-                    variant="h3"
+                    variant="h5"
                     textAlign="center"
                     color="white"
                     mt={5}
                     mx={1}
                 >
+                    گروه تخصصی طب فردا
+                </Typography>
+                <Typography
+                    fontWeight="bold"
+                    variant="h4"
+                    textAlign="center"
+                    color="white"
+                    mt={1}
+                    mx={1}
+                >
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("درمان در منزل با آسودگی بسیار")
+                                .typeString("مرجع تخصصی تشخیص و درمان بیماری های مغز و اعصاب در منزل")
                                 .pauseFor(2000)
                                 .start()
                         }}
@@ -70,16 +76,6 @@ const Banner = () => {
                         }}
                     />
                 </Typography>
-                {/* <Typography
-                    fontWeight="bold"
-                    variant="h4"
-                    textAlign="center"
-                    color="white"
-                    mt={1}
-                    mx={1}
-                >
-                    بهینه، مهندسی بساز
-                </Typography> */}
                 <Box
                     sx={{
                         display: "flex",
@@ -90,7 +86,7 @@ const Banner = () => {
                         variant="contained"
                         sx={{ margin: "40px 10px", background: "#3AA76D" }}
                         onClick={() => {
-                            scroller(1500);
+                            scroller(800);
                         }}
                     >
                         <Typography
