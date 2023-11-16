@@ -65,7 +65,7 @@ const AboutUs = () => {
             alignItems="center"
           >
             <Image
-              src="/images/aboutus.jpg"
+              src="/images/aboutus.webp"
               alt="aboutus"
               layout="responsive"
               width={300}
