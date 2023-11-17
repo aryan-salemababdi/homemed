@@ -95,7 +95,7 @@ const Services = () => {
                                 />
                             ))}
                     </Grid>
-                    <Box display="flex" justifyContent="center">
+                    <Box display="flex" flexWrap="wrap" justifyContent="center">
                         <Box
                             border="2px solid none"
                             bgcolor="#E86E77"
