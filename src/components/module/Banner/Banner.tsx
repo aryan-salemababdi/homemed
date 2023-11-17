@@ -16,7 +16,7 @@ const Banner = () => {
     }
 
     useEffect(() => {
-        const interval = setInterval(updateBackgroundImage, 4000);
+        const interval = setInterval(updateBackgroundImage, 10000);
         return () => clearInterval(interval);
     });
 
