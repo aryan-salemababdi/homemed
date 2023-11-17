@@ -64,7 +64,7 @@ const Banner = () => {
                     mt={1}
                     mx={1}
                 >
-                    با مدیریت <span style={{color:"#3AA76D"}}>سید حمیدرضا جوادی،</span>
+                     با مدیریت دکتر <span style={{color:"#3AA76D"}}>سید حمیدرضا جوادی،</span>
                 </Typography>
                 <Typography
                     fontWeight="bold"
@@ -74,7 +74,7 @@ const Banner = () => {
                     mt={1}
                     mx={1}
                 >
-                    متخصص بیماری های مغز و اعصاب، مدرس و پژوهشگر طب سنتی ایران و طب سنتی چین
+                    متخصص بیماری های مغز و اعصاب، مدرس و پژوهشگر طب سنتی ایران و طب سوزنی چین
                 </Typography>
                 <Typography
                     fontWeight="bold"

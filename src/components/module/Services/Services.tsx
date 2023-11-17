@@ -1,6 +1,7 @@
 import { Box, Grid, Typography, Container } from '@mui/material';
 import React from 'react'
 import Cards from './Cards';
+import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 
 const Services = () => {
 
@@ -56,9 +57,9 @@ const Services = () => {
 
 
     return (
-        <div style={{ background:"#E9EDF0"}}>
+        <div style={{ background: "#E9EDF0" }}>
             <Container>
-                <Box m="100px 0px">
+                <Box m="100px 0px" p="10px 0px">
                     <Typography
                         textAlign="center"
                         color="#3AA76D"
@@ -94,6 +95,22 @@ const Services = () => {
                                 />
                             ))}
                     </Grid>
+                    <Box display="flex" justifyContent="center">
+                        <Box
+                            border="2px solid none"
+                            bgcolor="#E86E77"
+                            borderRadius={2}
+                            padding={0.2}
+                            color="white"
+                            mx={1}
+                            px={1}
+                        >
+                            <ErrorOutlineIcon sx={{ color: "white", fontSize: "0.85rem" }} /> توجه
+                        </Box>
+                        <Typography color="GrayText" fontWeight="bold">
+                           کلیه خدمات به صورت شبانه روزی در منزل انجام می شود
+                        </Typography>
+                    </Box>
                 </Box>
             </Container>
         </div>
