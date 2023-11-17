@@ -58,6 +58,26 @@ const Banner = () => {
                 </Typography>
                 <Typography
                     fontWeight="bold"
+                    variant="h5"
+                    textAlign="center"
+                    color="white"
+                    mt={1}
+                    mx={1}
+                >
+                    با مدیریت <span style={{color:"#3AA76D"}}>سید حمیدرضا جوادی،</span>
+                </Typography>
+                <Typography
+                    fontWeight="bold"
+                    variant="h5"
+                    textAlign="center"
+                    color="white"
+                    mt={1}
+                    mx={1}
+                >
+                    متخصص بیماری های مغز و اعصاب، مدرس و پژوهشگر طب سنتی ایران و طب سنتی چین
+                </Typography>
+                <Typography
+                    fontWeight="bold"
                     variant="h4"
                     textAlign="center"
                     color="white"

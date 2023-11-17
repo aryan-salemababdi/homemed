@@ -20,7 +20,7 @@ const Content = () => {
                                         خدمات پزشک شخصی سازی شده
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        طرح پزشک شخصی سازی شده بر اساس مزاج خود شخص می باشد، ما در زمینه حفظ و ارتقا سلامت شخص تلاش می کنیم و بسته به نیاز و شرایط شخص دارو های گیاهی که شامل کمون، روغن و ... را فراهم می کنیم
+                                        طرح پزشک شخصی سازی شده بر اساس مزاج خود شخص می باشد، ما در زمینه حفظ و ارتقا سلامت شخص تلاش می کنیم و بسته به نیاز و شرایط شخص دارو های گیاهی که شامل کپسول، دمنوش تی بگ و... برای انواع بیماری ها و متناسب با مزاج بیماران داریم
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -37,30 +37,10 @@ const Content = () => {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                        حال خوب شما آرزوی ماست
+                                        طب سنتی و سوزنی
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        طب فردا به کمک تیم مجرب خود در تمامی ساعات شبانه روز در تهران آماده ارائه خدمات درمانی و مراقبتی به شما و عزیزانتان می باشد
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </Grid>
-                    <Grid item>
-                        <Card sx={{ maxWidth: 350, margin: "10px" }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image="/images/patty-brito-Y-3Dt0us7e0-unsplash.webp"
-                                    alt="health2"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        طرح پایش سلامت سالمند
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        چکابهای روتین و دوره ای توسط پزشک متخصص طب سالمندی همان چیری است که سالمند شما برای زندگی بهتر به آن نیاز دارد مفتخریم که بهترین پزشکان طب سالمندی را در کنار خود داریم
+                                         خدمات طب سوزنی شامل لاغری، چاقی، زیبایی، انواع درد ها که شامل کمردرد، سیاتیک و سردرد می باشد، همچنین شامل اختلالات خواب و روانپزشکی می باشد، اقدامات طب سنتی و سوزنی توسط پزشک انجام می شود
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
