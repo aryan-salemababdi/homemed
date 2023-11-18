@@ -5,6 +5,7 @@ import Content from '@/components/module/Content/Content';
 import AboutUs from '@/components/module/AboutUs/AboutUs';
 import Services from '@/components/module/Services/Services';
 import Information from '@/components/module/Information/Information';
+import Further from '@/components/module/Further/Further';
 
 
 const LandingPage = () => {
@@ -15,6 +16,7 @@ const LandingPage = () => {
       </Box>
       <Content />
       <AboutUs />
+      <Further />
       <Services />
       <Information />
     </div>
